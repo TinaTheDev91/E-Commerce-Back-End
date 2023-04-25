@@ -54,7 +54,7 @@ router.put('/:id', (req, res) => {
     }
   )
     .then((updatedTag) => {
-      res.json(updatedtag);
+      res.json(updatedTag);
     })
     .catch((err) => {
       console.log(err);
